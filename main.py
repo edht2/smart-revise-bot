@@ -12,8 +12,9 @@ questions = read_csv("questions.csv")
 load_dotenv()
 
 custom_fonts = ["Arial", "Helvetica", "Times New Roman"]
-with Camoufox(os="windows", fonts=custom_fonts, humanize=True, window=(1280, 1000)) as browser:
+with Camoufox(os="macos", fonts=custom_fonts, humanize=True, window=(2360, 1640)) as browser:
     page = browser.new_page()
+    page.set_extra_http_headers({"Accept-Encoding": "identity"})
     page.goto("https://smartrevise.online")
     
     # Wait for page to download and for all assests to be downloaded
@@ -46,7 +47,7 @@ with Camoufox(os="windows", fonts=custom_fonts, humanize=True, window=(1280, 100
     page.keyboard.press("Enter")
     
     # Press stay signed in
-    page.wait_for_timeout(2500)
+    page.wait_for_timeout(7000)
     page.keyboard.press("Enter")
     
     # Wait for Smart revise to load
