@@ -1,0 +1,16 @@
+#question|answer
+#
+# Sorting Algorithms
+In the first part of the algorithm, the list is repeatedly divided in half until there is only one item in each list. Which algorithm is being described?|Merge Sort
+What is an advantage of a bubble sort over a merge sort?|It requires less memory
+Consider this list of numbers: 9 3 6 8 4 7. An algorithm compares 9 and 3 followed by 9 and 6 followed by 9 and 8. Which algorithm is being described?|Bubble sort
+Consider this list of numbers: 9 3 6 8 4 7. A bubble sort algorithm starts from the first item in the list (9) and orders the list from lowest to highest number. What is the order of the numbers after one pass through all the numbers of the bubble sort algorithm on this list?|3 6 8 4 7 9
+What is an advantage of a bubble sort over a merge sort?|It is easier to program
+What is an advantage of a merge sort over a bubble sort?|It executes more quickly with large data sets
+Two lists: 2 3 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 2 & 1 followed by 2 & 4 etc. What is the name of the algorithm that has been used?|Merge sort
+In the first part of the algorithm, the list is repeatedly divided in half until there is only one item in each list. Which algorithm is being described?|Merge sort
+What is an advantage of a bubble sort over a merge sort?|It requires less memory
+Two lists: 2 3 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 2 & 1 followed by 2 & 4 etc. What is the name of the algorithm that has been used?|Merge sort
+#
+# Relational Databases
+Relational databases eliminate data redundancy. Which statement is the best description of what that means?|The duplication of data within a database
