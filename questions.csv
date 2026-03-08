@@ -1,13 +1,95 @@
-#question|answer
-#
-# Sorting Algorithms
-In the first part of the algorithm, the list is repeatedly divided in half until there is only one item in each list. Which algorithm is being described?|Merge Sort
-What is an advantage of a bubble sort over a merge sort?|It requires less memory
-Consider this list of numbers: 9 3 6 8 4 7. An algorithm compares 9 and 3 followed by 9 and 6 followed by 9 and 8. Which algorithm is being described?|Bubble sort
-Consider this list of numbers: 9 3 6 8 4 7. A bubble sort algorithm starts from the first item in the list (9) and orders the list from lowest to highest number. What is the order of the numbers after one pass through all the numbers of the bubble sort algorithm on this list?|3 6 8 4 7 9
+Why is phishing becoming more of a problem?|Fake websites and emails often use most of the HTML from real sites, only changing the hyperlinks
+What is the output from the Boolean expression: 0.1?|0
+Which of the following best describes a virus?|A piece of code which is capable of copying itself and typically has a detrimental effect
+What one advantage does using robotics have over people for the same task?|They are very precise
+What is the definition of phishing?|Sending emails purporting to be from reputable companies to induce people to reveal personal information
+What is the correct Boolean expression for the following logic diagram?|(A + B) ● C
+Assuming the table shown is called 'Students', which SQL query will return just the names Craig, Dave, Rose, Andrew?|SELECT Name FROM Students WHERE Age > (SELECT Age from Students WHERE Name = 'Ben')
+Which of these statements is a description of a relational database?|A database with multiple tables linked together by key information
+Which of these statements is a description of a database?|A persistent store of related information
+Which of these statements is a description of a primary key?|A unique piece of data within a table to identify a record
+Which of these statements is a description of a record?|A collection of information linked together
+Which of these statements is a description of a foreign key?|A reference to a primary key within another table
+Which of these statements is a description of a table?|A collection of related data
+Which of these statements is a description of a field?|A single type of information within a database
+What is one disadvantage of storing data in a single table?|Possibility of data inconsistency
+Relational databases eliminate data redundancy. Which statement is the best description of what that means?|The duplication of data within a database
+Which of these is a feature of a high level programming language?|Large set of instructions
+Assuming the table shown is called 'Students', which SQL statement would we use to update all students in class '11R' to now be in class '12R'?|UPDATE Students SET Class = '12R' WHERE Class = '11R'
+Which of these is a feature of a low level programming language?|Translates to one type of machine
+What is the purpose of the HTTPS protocol?|To provide encryption and authentication for requesting and delivering HTML web pages
+The Computer Misuse Act 1990 makes it illegal to:|Gain access to secure systems with the intent to commit further offences
+A school has built a new computer room and needs to connect each computer to a switch. Speed and reliability are important but cost is an issue, what would you recommend?|Copper cable
+Which flow diagram symbol is used to signify an input?|Parallelogram
+What is the purpose of the TCP protocol?|Provides an error free transmission of data between two routers
 What is an advantage of a bubble sort over a merge sort?|It is easier to program
-What is an advantage of a merge sort over a bubble sort?|It executes more quickly with large data sets
-Two lists: 2 3 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 2 & 1 followed by 2 & 4 etc. What is the name of the algorithm that has been used?|Merge sort
-In the first part of the algorithm, the list is repeatedly divided in half until there is only one item in each list. Which algorithm is being described?|Merge sort
-What is an advantage of a bubble sort over a merge sort?|It requires less memory
-Two lists: 2 3 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 2 & 1 followed by 2 & 4 etc. What is the name of the algorithm that has been used?|Merge sort
+High level source code can be translated into machine code using:|a compiler
+A WAN is a:|Wide area network
+What is meant by the term 'algorithmic thinking'?|Identifying individual steps that a computer must take to solve a problem
+All code is translated into:|Machine code
+Which layer of the TCP/IP model is being described here: 'addresses and packages data for transmission. Routes the packets across the network'?|Internet
+Which of the following is an accurate definition for the term malware?|Generic term for software written to infect computers
+Which of the following statements is true?|There are many algorithms that can be used to solve a problem
+Which word should be used in this sentence? Assembly language is … into machine code using an assembler.|translated
+What is the purpose of the ORDER BY structure in SQL?|Determines whether the data presented is ascending or descending
+Consider this list of numbers L: 3 4 6 7 8 9. Which number would be checked first in a linear search?|3
+What is the captcha security measure designed to do?|It determine if the user is a machine or not
+What does the protocol 'IP' stand for?|Internet Protocol
+If A = 0, B = 1. What is the output from the Boolean expression: NOT(A.(B̅))?|1
+What is the main advantage of a binary search compared to a linear search?|It is usually quicker to find the item in the list
+What is the output from the Boolean expression: 1 + 0?|1
+Consider this list of numbers L: 3 4 5 6 7 8 9. Which number would be checked first in a binary search?|6
+Which layer of the TCP/IP model is being described here: 'sets up the communication between the two hosts'?|Transport
+Mobile technologies such as smart phones and tablets are increasing voice activated and capable of listening into our daily activities. Which of the following is an argument against allow this?|Everyone is entitled to their privacy
+Why should a user take a regular backup of their files?|To protect against data loss and corruption
+Which of these measures should you take to help prevent a malware attack?|Install operating system updates
+What does the protocol 'SMTP' stand for?|Simple Mail Transfer Protocol
+What is meant by 'protocol layering'?|Splitting the complicated process of networking into individual functions
+A graphics artist for a 2D platform game decides that collectable apples will all be a solid green colour. Which aspect of computational thinking has been applied?|Abstraction
+Which form of malware is being described: 'a program that appears harmless, but is in fact malicious'?|Trojan
+Which of the following is not considered a biometric security measure?|Password authentication
+What is meant by the term, 'XOR'?|Exclusive OR
+Assuming the table shown is called 'Students', what would be the output from the following SQL query? SELECT ID FROM Students WHERE Age = 15 ORDER BY ID DESC|008, 006, 004, 003
+A university is installing transmission media between switches in different parts of the campus. It needs to be fast and reliable, cost is not an issue, what would you recommend?|Fibre optic
+An embedded system is running on very specialised hardware that is optimised for the task. A low level language is chosen for the development environment. What should be used to turn the code into binary?|Assembler
+Which of the following SQL commands is used to change data which is already in a database table?|UPDATE
+Mnemonics are associated with which type of code?|Assembly code
+A parallelogram symbol in a flow diagram is used to signify:|The input or output of data
+Which word should be used in this sentence? High level … can be translated into machine code using a compiler.|source code
+Assuming the table shown is called 'Students', which student IDs be deleted with the following SQL statement? DELETE FROM Students WHERE Name <= 'Craig' AND Class ='11R'|001, 007
+The Internet is an example of a:|Wide Area Network
+Which of the following is a common additional security measure used when you first register or sign up for online software?|Email confirmation
+What does WAN stand for?|Wide Area Network
+What does the Freedom of Information Act 2000 entitle member of the public to do?|Request information from public bodies about their activities
+Which of these is an example of systems software?|Operating system
+What is one purpose of systems software?|To provide a platform on which users can run programs
+What is a white list?|A list of physical MAC addresses you want to allow access to a network
+When designing an algorithm, programmers can use:|Flow diagrams
+Which of these statements is true in terms of data protection laws?|You have a right to access personal data stored about you
+What is a Wide Area Network (WAN)?|A group of computers and devices spread over a large geographical area
+A parent is in dispute with a school about a fight that may have taken place and asks for the pastoral record of another child. The school refuses to provide this data to the parent under which Act of Parliament?|The Data Protection Act 2018
+Which flow diagram symbol is used to signify a decision?|Rhombus
+People are described as 'weak points' in secure systems. Which of these is an example of that?|Using CC instead of BCC when sending emails to multiple people
+A network set up across a school site is an example of a:|Local Area Network
+A disgruntled employee decides to publish the email addresses of all the customers on The Internet in a revenge attack against the company they used to work for. Which law has been broken?|The Data Protection Act 2018
+A hospital refuses to publish data to a member of the public about the amount of time patients are kept waiting in an ambulance before being admitted to A&E. Which law is being broken?|The Freedom of Information Act 2000
+What is IMAP used for?|Access messages from a mail server
+What is a Local Area Network (LAN)?|A group of computers and other devices located on a single site
+Which best describes the position of an operating system within a computer system?|Hardware > Operating System < Applications
+UTF-8 Unicode which is the most popular character set on the web uses 17, two byte code points in the character set. The number of characters in the set can be calculated as:|(2^16)*17 = 1,114,112 characters
+Which logic gate symbol is shown here?|NOT
+Which statement describes cyber security?|Protecting network computers from unauthorised access
+A programmer is writing a function that searches a list and returns 'True' if the item exists in the list or 'False' if it does not. The program requires an iteration to work. Which type of iteration would be most efficient for this purpose?|WHILE… ENDWHILE
+What is the most important reason to update and patch software on a regular basis?|To fix bugs and security flaws
+Assuming the table shown is called 'Students', SQL command would we use to enter a new students called Jane, age 16 into class 11R?|INSERT INTO Students VALUES ('009', 'Jane', 16, '11R')
+An advantage of pseudocode is that:|It helps to design algorithms and with thinking logically
+What is the major limitation with Bluetooth technology used in PANs?|Short range
+Binary is produced as a result of compilation of:|High level code
+The systems software includes the:|Operating system and utilities
+What does user management mean in the context of an operating system?|Providing for different users to log in to a computer retaining their settings and security
+If A = 1, B = 0. What is the output from the Boolean expression: NOT(A+B)?|0
+A terminal symbol in a flow diagram is used to signify:|The start or end of a process
+What is the purpose of the WHERE structure in SQL?|To define the criteria of the records returned
+Which of the following SQL commands is used to add a new record to a database table?|INSERT INTO
+What does LAN stand for?|Local Area Network
+Which of these is one advantage of a compiler over an interpreter?|The code is optimised
