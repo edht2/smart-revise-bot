@@ -14,3 +14,10 @@ Two lists: 2 3 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 2 & 1 fol
 #
 # Relational Databases
 Relational databases eliminate data redundancy. Which statement is the best description of what that means?|The duplication of data within a database
+
+# Hardware and Software
+What is being described here: 'General term covering all computer programs.'|Software
+Which of the following correctly describes the relationship between hardware and software?|Application software <-> Operating system <-> Hardware
+What is being described here: 'All physical parts of a computer system and its related devices both internal or external.'|Hardware
+Which statement best describes the hardware of a computer?|The physical parts of the system
+Applications or 'apps' are an example of this.|Software

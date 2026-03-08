@@ -46,21 +46,10 @@ with Camoufox(os="macos", fonts=custom_fonts, humanize=True, window=(2360, 1640)
     page.type(password_selector, os.environ.get("MICROSOFT_PASSWD"), delay=100)
     page.keyboard.press("Enter")
     
-    # Press stay signed in
-    page.wait_for_timeout(7000)
-    page.keyboard.press("Enter")
-    
-    # Wait for Smart revise to load
-    page.wait_for_timeout(2000)
-    
-    # Click on the computer science course
-    page.mouse.click(90, 340)
-    page.wait_for_timeout(1000)
-    
-    # Scroll down so revise comes into view and click
-    page.mouse.wheel(0, 200)
-    page.mouse.click(90, 550)
-    
+    # Wait for the page to load and for the question text to be visible
+    page.locator("#questiontext").wait_for()
+    page.wait_for_timeout(1500)
+
     """ In the question page """
     page.mouse.wheel(0, -50)
     
@@ -71,6 +60,7 @@ with Camoufox(os="macos", fonts=custom_fonts, humanize=True, window=(2360, 1640)
         answer_buttons = page.query_selector_all(".col")
         
         for q in questions:
+
             qt = tuple(q)
             
             if qt[0].lower() != page_question.lower(): continue
