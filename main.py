@@ -5,22 +5,19 @@ from camoufox.sync_api import Camoufox
 from csvreader import read_csv, write_csv
 
 CSV_PATH = "questions.csv"
-QUESTIONS = 100
+QUESTIONS = 60 #(u know why)
 
 # Small csv reader utility (csvreader.py)
 questions = read_csv(CSV_PATH)
 
-with Camoufox(
-    os="windows",
-    fonts=["Arial", "Helvetica", "Times New Roman"],
-    humanize=True,
-    window=(1280, 1000)
-) as browser:
-    
+with Camoufox(os="macos", fonts=["Arial", "Helvetica", "Times New Roman"], humanize=True, window=(2360, 1640)) as browser: # to imitate ipad 10th gen
     page = browser.new_page()
+    page.set_extra_http_headers({"Accept-Encoding": "identity"})
     page.goto("https://smartrevise.online")
     
-    input("Sign in manually then press enter") # Wait for input (user has signed in)
+    # input("Sign in manually then press enter") # Wait for input (user has signed in)
+    page.locator("#questiontext").wait_for()
+    page.wait_for_timeout(1000)
     
     """ In the question page """    
     for i in range(QUESTIONS):
